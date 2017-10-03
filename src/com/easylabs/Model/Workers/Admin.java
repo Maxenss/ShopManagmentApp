@@ -1,6 +1,8 @@
 package com.easylabs.Model.Workers;
 
-import com.easylabs.Model.Workers.ShiftManager;
-
 public class Admin extends ShiftManager {
+
+    public Admin(String mFiliation, String mName, String mId, String mNumber, long mBankAccount, int mWorkerNumber) {
+        super(mFiliation, mName, mId, mNumber, mBankAccount, mWorkerNumber);
+    }
 }

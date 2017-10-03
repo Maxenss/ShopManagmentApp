@@ -13,35 +13,35 @@ public abstract class Person {
         this.mNumber = mNumber;
     }
 
-    public String getmFiliation() {
+    public String getFiliation() {
         return mFiliation;
     }
 
-    public void setmFiliation(String mFiliation) {
+    public void setFiliation(String mFiliation) {
         this.mFiliation = mFiliation;
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
-    public void setmName(String mName) {
+    public void setName(String mName) {
         this.mName = mName;
     }
 
-    public String getmId() {
+    public String getId() {
         return mId;
     }
 
-    public void setmId(String mId) {
+    public void setId(String mId) {
         this.mId = mId;
     }
 
-    public String getmNumber() {
+    public String getNumber() {
         return mNumber;
     }
 
-    public void setmNumber(String mNumber) {
+    public void setNumber(String mNumber) {
         this.mNumber = mNumber;
     }
 }

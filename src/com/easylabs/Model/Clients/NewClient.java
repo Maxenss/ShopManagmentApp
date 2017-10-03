@@ -8,4 +8,6 @@ public class NewClient extends Client {
                      double mCountOfPurchases) {
         super(mFiliation, mName, mId, mNumber, Client.NEWCLIENT, Client.NEWCLIENT_SALE, mCountOfPurchases);
     }
+
+    // Добавить метод на покупку
 }
