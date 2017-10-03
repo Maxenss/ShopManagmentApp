@@ -1,13 +1,11 @@
 package com.easylabs.Model.Clients;
 
-import com.easylabs.Model.Clients.Client;
-import com.easylabs.Model.Enums.ClientStatus;
-
 public class ReturningClient extends Client {
-    public static int SALE = 20;
-    public static ClientStatus CLIENTSTATUS = ClientStatus.RETURNINGCLIENT;
-
-    public ReturningClient() {
-        super(CLIENTSTATUS, SALE);
+    public ReturningClient(String mFiliation,
+                           String mName,
+                           String mId,
+                           String mNumber,
+                           double mCountOfPurchases) {
+        super(mFiliation, mName, mId, mNumber, Client.RETURNINGCLIENT, Client.RETURNINGCLIENT_SALE, mCountOfPurchases);
     }
 }
