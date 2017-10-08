@@ -17,27 +17,27 @@ public class Store {
         this.mProductArrayList = mProductArrayList;
     }
 
-    public ArrayList<Worker> getmWorkersArrayList() {
+    public ArrayList<Worker> getWorkersArrayList() {
         return mWorkersArrayList;
     }
 
-    public void setmWorkersArrayList(ArrayList<Worker> mWorkersArrayList) {
+    public void setWorkersArrayList(ArrayList<Worker> mWorkersArrayList) {
         this.mWorkersArrayList = mWorkersArrayList;
     }
 
-    public ArrayList<Client> getmClientWorkersArrayList() {
+    public ArrayList<Client> getClientWorkersArrayList() {
         return mClientWorkersArrayList;
     }
 
-    public void setmClientWorkersArrayList(ArrayList<Client> mClientWorkersArrayList) {
+    public void setClientWorkersArrayList(ArrayList<Client> mClientWorkersArrayList) {
         this.mClientWorkersArrayList = mClientWorkersArrayList;
     }
 
-    public ArrayList<Product> getmProductArrayList() {
+    public ArrayList<Product> getProductArrayList() {
         return mProductArrayList;
     }
 
-    public void setmProductArrayList(ArrayList<Product> mProductArrayList) {
+    public void setProductArrayList(ArrayList<Product> mProductArrayList) {
         this.mProductArrayList = mProductArrayList;
     }
 

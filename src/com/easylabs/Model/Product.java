@@ -12,13 +12,13 @@ public class Product {
     private String mName;
     private String mCategory;
     private int mCount;
-    private int mCost;
+    private double mCost;
     String mFiliation;
 
     public Product(String mName,
                    String mCategory,
                    int mCount,
-                   int mCost,
+                   double mCost,
                    String mFiliation) {
         this.mName = mName;
         this.mCategory = mCategory;
